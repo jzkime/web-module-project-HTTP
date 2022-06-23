@@ -124,6 +124,10 @@ table.table .avatar {
   min-width: 100%;
 }
 
+.active {
+	position: absolute;
+}
+
 .modal-content {
   font-size: 20px;
 }

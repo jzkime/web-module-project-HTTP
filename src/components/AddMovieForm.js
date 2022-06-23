@@ -26,7 +26,7 @@ const AddMovieForm = (props) => {
             .then(res => {
                 props.setMovies(res.data);
                 setMovie(initialMovie);
-                push('/movies')
+                push('/movies');
             })
     }
 
